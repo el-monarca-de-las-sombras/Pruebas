@@ -21,7 +21,7 @@ fr.Draggable = true
 
 local St = Instance.new("UIStroke")
 St.Thickness = 2
-St.BackgroudnColor3 = Color3.fromRGB(255,255,255)
+St.Color3 = Color3.new(255,255,255)
 St.Parent = fr 
 
 local cr = Instance.new("UICorner")
