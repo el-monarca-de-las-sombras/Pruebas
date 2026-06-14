@@ -19,14 +19,15 @@ fr.BackgroundTransparency = 0.5
 fr.Active = true
 fr.Draggable = true
 
+local cr = Instance.new("UICorner")
+cr.CornerRadius = UDim.new(0,12)
+cr.Parent = fr 
+
 local St = Instance.new("UIStroke")
 St.Thickness = 2
 St.Color = Color3.new(255,255,255)
 St.Parent = fr 
 
-local cr = Instance.new("UICorner")
-cr.CornerRadius = UDim.new(0,12)
-cr.Parent = fr 
 
 
 
