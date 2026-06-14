@@ -25,9 +25,8 @@ cr.Parent = fr
 
 local St = Instance.new("UIStroke")
 St.Thickness = 2
-St.Color = Color3.new(255,255,255)
+St.Color = Color3.new(1,1,1)
 St.Parent = fr 
-
 
 
 
