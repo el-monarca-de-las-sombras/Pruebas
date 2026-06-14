@@ -1,0 +1,23 @@
+local Players = game:GetService("Players")
+local UserInputService= game:GetService("UserInputService")
+
+local LP = Players.LocalPlayer if not LP then return end
+
+local PlayerGui = LP:WaitForChild("PlayerGui")
+
+local sc = Instance.new("ScreenGui")
+sc.Name = "github"
+sc.Parent = PlayerGui
+sc.ResetOnSpawn = false
+
+local fr = Instance.new("Frame")
+fr.Parent = sc
+fr.Size = UDim2.new(0,220,0,180)
+fr.Position = UDim2.new(0.5,0,0.5,0)
+fr.BackgroundColor3 = Color3.fromRGB(25,25,25)
+fr.BackgroundTransparency = 0.5
+fr.Active = true
+fr.Draggable = true
+
+
+
